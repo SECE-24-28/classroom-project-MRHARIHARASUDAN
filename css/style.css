@@ -1,0 +1,67 @@
+p{
+    color: rgb(229, 186, 222);
+}
+.para{
+    color: rgb(255, 94, 0);
+    font-size: auto;
+    font-weight: auto;
+ font-family: "Nabla", system-ui;
+    font-style: italic;
+    text-align: right;
+    
+}
+div{
+    height: auto;
+    width: 30%;
+    border-radius: 55px;
+    padding: 50px;
+    margin:5px 10px 15px 25px;
+    background-color: rgb(21, 206, 190);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+div:hover{
+    
+  background-image: url(https://i.ytimg.com/vi/U1bYhqi1Kco/hqdefault.jpg);
+    box-shadow:15px 10px 15px 10px rgb(3, 3, 36);
+}
+.para-two{
+    margin:5px; 
+    padding:5px;
+}
+
+img{
+    filter:drop-shadow(15px 15px 15px rgb(218, 14, 3));
+    height: 200px;
+    width: 400PX;
+}
+main{
+    background-color: chocolate;
+    height: auto;
+    width: 650px;
+    margin: 25px;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    animation-name: mainanimation;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    gap: 30px;
+
+}
+@keyframes mainanimation {
+    0%{background-color: rgb(90, 210, 210);}
+    20%{background-color: rgb(101, 65, 19);}
+    40%{background-color: rgb(14, 28, 136);}
+    60%{background-color: rgb(16, 51, 82);}
+    80%{background-color: rgb(110, 74, 21);}
+    100%{background-color: black;}
+    
+}
+@media(max-width:640px){
+    main{
+        display: block;
+    }
+}
